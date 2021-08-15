@@ -1,0 +1,96 @@
+
+.select{
+   border: 1px solid lightgray; 
+   border-radius: 10px;
+   font-size: medium;
+}
+
+.input{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+    //background-color: white;
+}
+
+.homeCard{
+    box-shadow: none;
+}
+
+.date_time{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.search_filters{
+    border-bottom-color: #1b4bc9;
+    background: darkturquoise !important;
+    height: 37vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-style: double;
+}
+/*
+ion-img{
+    padding-top: 20vh;
+}*/
+.img1{
+    width: 50px;
+    height: 50px;
+}
+.card-calendar{
+    box-shadow: none !important;
+}
+.btnSubmit{
+    --border-radius: 2.5vh;
+    --background: darkturquoise;
+    color: white;
+}
+#slides{
+    background: white;
+}
+
+ion-slides {
+    --text-align: center;
+    height: 250px;
+    color: darkturquoise;
+    --bullet-background: gray;
+    --background-color:white;
+    --bullet-background-active: darkturquoise;
+}
+
+ion-slider-pager {
+    --moz-list-bullet-color: darkturquoise;
+    --background-color:white;
+}
+ion-slide {
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    background: white;
+    height: 250px;
+}
+.cat{
+    height: 180px;
+    width:150px;
+}
+/*ion-avatar{
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border: black;
+    //border-bottom-left-radius: 100px;
+   // border-bottom-right-radius: 100px;
+
+}*/
+ion-avatar img{
+    width: 90px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+
+    border: 70px solid red !important;
+  }
